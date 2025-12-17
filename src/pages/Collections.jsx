@@ -51,7 +51,7 @@ const Collections = () => {
           {product.name1}
         </h3>
 
-        <p className="mt-1 text-[13px] text-[#7d7266]">Rs.{product.price}</p>
+        {/* <p className="mt-1 text-[13px] text-[#7d7266]">Rs.{product.price}</p> */}
       </div>
     </Link>
   ))}
@@ -83,10 +83,10 @@ const Collections = () => {
           {product.name1}
         </h3>
 
-        <div className="flex gap-2">
+        {/* <div className="flex gap-2">
           <p className="mt-1 text-sm line-through  sm:text-[16px] text-gray-600">Rs.{product.OriginalPrice}</p>
           <p className="mt-1 text-sm sm:text-[16px] text-[#7d7266]">Rs.{product.price}</p>
-        </div>
+        </div> */}
 
         
       </Link>

@@ -174,7 +174,7 @@ const ProductPage = () => {
               {product.name}
             </h1>
 
-            {/* Price */}
+            {/* Price
             <div className="mt-2 sm:mt-3 md:mt-4 flex items-baseline gap-2 sm:gap-3 flex-wrap">
               <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-[#262626]">
                 ₹{product.price}
@@ -189,7 +189,7 @@ const ProductPage = () => {
                   Save ₹{product.OriginalPrice - product.price}
                 </span>
               )}
-            </div>
+            </div> */}
 
             {/* Short description */}
             {product.shortDescription && (
